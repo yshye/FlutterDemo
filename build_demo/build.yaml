@@ -1,0 +1,13 @@
+builders:
+  # voidBuilder:
+  #   import: "package:build_demo/src/builder.dart"
+  #   builder_factories: ["voidLibraryBuilder"]
+  #   build_extensions: {".dart":[".g.dart"]}
+  #   auto_apply: root_package
+  #   build_to: source
+  multiplierBuilder:
+    import: "package:build_demo/src/builder.dart"
+    builder_factories: ["multiplierLibraryBuilder"]
+    build_extensions: {".dart":[".g.dart"]}
+    auto_apply: root_package
+    build_to: source

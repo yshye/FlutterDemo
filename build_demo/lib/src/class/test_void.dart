@@ -1,0 +1,3 @@
+class TestVoid {
+  const TestVoid();
+}
